@@ -1,12 +1,9 @@
 #apresentacao {
-  border-style: solid;
-  border-color: red;
   height: 600px;
   background-image: url('imagens/fundoApresentacao.png');
 }
 
 #apresentação h3 {
-  border-style: solid;
   text-align: center;
   margin-top: 22%;
 }
