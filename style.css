@@ -1,9 +1,9 @@
 #apresentacao {
   height: 600px;
   background-image: url('imagens/fundoApresentacao.png');
+  padding-top: 22%;
 }
 
 h3 {
   text-align: center;
-  margin-top: 22%;
 }
