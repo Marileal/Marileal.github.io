@@ -5,8 +5,8 @@
   background-image: url('imagens/fundoApresentacao.png');
 }
 
-h3 {
+#apresentação h3 {
   border-style: solid;
   text-align: center;
-  margin-top: 22%;  
+  margin-top: 22%;
 }
