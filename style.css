@@ -9,6 +9,7 @@ h3 {
   text-align: center;
 }
 
-#organic {
-  display: block;
+#organic img {
+  display: flex;
+  flex-direction: column;
 }
