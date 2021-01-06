@@ -9,6 +9,11 @@ h3 {
   text-align: center;
 }
 
+#organic {
+  background-color: black;
+  color: white;
+}
+
 img {
   display: flex;
   flex-direction: column;
