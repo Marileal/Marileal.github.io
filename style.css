@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #apresentacao {
   height: 300px;
   background-image: url('imagens/fundoApresentacao.png');
