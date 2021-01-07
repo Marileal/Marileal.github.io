@@ -1,10 +1,14 @@
 body {
   margin: 0;
+  /* background: black; */
+}
+
+header {
+  background-image: url('imagens/fundoApresentacao.png');
 }
 
 #apresentacao {
-  height: 300px;
-  background-image: url('imagens/fundoApresentacao.png');
+  height: 285px;
   padding-top: 22%;
 }
 
@@ -13,17 +17,43 @@ h3 {
   text-align: center;
 }
 
-#organic {
-  /* background-color: black; */
+#organic, #effacer {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  /* background-color: black;  */
   /* color: white; */
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  /* justify-content: center; */
+}
+
+#chained, #space {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  /* background-color: black;  */
+  /* color: white; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+#reactDiffuse {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 img {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 2%;
+  justify-content: center; */
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
 }
