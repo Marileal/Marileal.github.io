@@ -1,19 +1,26 @@
 body {
   margin: 0;
+  font-family: 'Crimson Pro', serif;
+  /* font-style: italic; */
   /* background: black; */
 }
 
 header {
   background-image: url('imagens/fundoApresentacao.png');
+  text-align: center;
+  padding-top: 2%;
 }
-
+#menu{
+  display: inline-block;
+}
 #apresentacao {
-  height: 285px;
-  padding-top: 22%;
+  height: 305px;
+  padding-top: 10%;
+  padding-bottom: 3%;
 }
 
 h3 {
-  border-style: solid;
+  font-size: 35px;
   text-align: center;
 }
 
