@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Crimson Pro', serif;
-  /* font-style: italic; */
-  /* background: black; */
+  font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -10,57 +8,74 @@ header {
   text-align: center;
   padding-top: 2%;
 }
-#menu{
-  display: inline-block;
+
+a {
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  word-spacing: 70%;
 }
+
 #apresentacao {
-  height: 305px;
+  height: 373px;
   padding-top: 10%;
+  padding-left: 10%;
+  padding-right:10%;
   padding-bottom: 3%;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
 }
 
-#organic, #effacer {
-  font-size: 14px;
-  font-style: italic;
+#organic{
+  margin-top: 1%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
   text-align: center;
-  /* background-color: black;  */
-  /* color: white; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  margin-bottom: 3%;
+}
+
+#effacer {
+  background-color: black;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
 }
 
 #chained, #space {
-  font-size: 14px;
-  font-style: italic;
+  font-size: 30px;
   text-align: center;
-  /* background-color: black;  */
-  /* color: white; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  margin-bottom: 3%;
 }
 
 #reactDiffuse {
-  font-size: 14px;
-  font-style: italic;
+  font-size: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 img {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
+}
+
+#email {
+  height: 100px;
+  font-size: 30px;
+  padding-top: 2%;
+  text-align: center;
 }
