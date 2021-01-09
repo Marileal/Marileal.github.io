@@ -42,7 +42,7 @@ h3 {
 }
 
 #effacer {
-  background-color: black;
+  /* background-color: black; */
   font-size: 30px;
   text-align: center;
   display: flex;
@@ -71,6 +71,10 @@ img {
   margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#centralizados{
+  margin-left:30%;
 }
 
 #email {
