@@ -19,10 +19,11 @@ a {
 
 #apresentacao {
   height: 373px;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right:10%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-left: 12%;
+  padding-right:12%;
+  padding-bottom: 11%;
+  letter-spacing: 0.08em;
 }
 
 h3 {
